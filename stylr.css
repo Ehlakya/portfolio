@@ -1,0 +1,89 @@
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(133, 87, 175);
+    align-items: center; 
+    font-size: 30px;
+    position: sticky ;
+    top: 0%;
+    background-color:white;
+    height: 80px;
+    padding-top: 20px;
+}
+.first{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-size: 20px;
+}
+.button{
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    width: 150px ;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;   
+}
+.button:hover{
+    background-color: rgb(139, 99, 99);
+    transform: scale(0.9); 
+    color: antiquewhite; 
+}
+.head{
+    text-align: center; 
+    color: gray;
+    font-size: 25px; 
+}
+.h11{
+    font-size: 150px; 
+    margin-top: 70px;
+    margin-bottom: 200px;
+    color: rgb(112, 112, 210);
+    text-align: center;
+}
+.hello{
+    font-size: 20px;
+    margin: 15px;
+    color: rgb(112, 112, 210);
+   
+}
+.edit{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 50px;
+}
+.set{
+    display: flex;
+}
+.div{
+    margin: 50px;
+    font-size: 35px;
+    font-style: italic;
+}
+.div2{
+    margin: 50px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.text{
+    margin: 50px;
+    font-size: 30px;
+    word-spacing: 10px;
+    line-height: 50px;
+    font-style: italic;
+    margin-bottom: 300px;
+}
+.knowme{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.education{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: 50px;
+}
