@@ -1,72 +1,91 @@
-.nav1{
+.nav1 {
     display: flex;
     justify-content: space-around;
     color: rgb(133, 87, 175);
-    align-items: center; 
+    align-items: center;
     font-size: 30px;
-    position: sticky ;
+    position: sticky;
     top: 0%;
-    background-color:white;
+    background-color: white;
     height: 80px;
     padding-top: 20px;
 }
-.first{
+
+.first {
     display: flex;
     list-style: none;
     gap: 35px;
     font-size: 20px;
 }
-.button{
+
+li:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(118, 4, 95);
+    background-color: rgb(142, 211, 211);
+    padding: 5px;
+}
+
+.button {
     align-items: center;
     background-color: white;
     border: 2px solid black;
-    width: 150px ;
+    width: 150px;
     height: 40px;
     border-radius: 20px;
-    font-size: 15px;   
+    font-size: 15px;
 }
-.button:hover{
+
+.button:hover {
     background-color: rgb(139, 99, 99);
-    transform: scale(0.9); 
-    color: antiquewhite; 
+    transform: scale(0.9);
+    color: antiquewhite;
 }
-.head{
-    text-align: center; 
+
+.head {
+    text-align: center;
     color: gray;
-    font-size: 25px; 
+    font-size: 25px;
 }
-.h11{
-    font-size: 150px; 
+
+.h11 {
+    font-size: 150px;
     margin-top: 70px;
     margin-bottom: 200px;
     color: rgb(112, 112, 210);
     text-align: center;
 }
-.hello{
+
+.hello {
     font-size: 20px;
     margin: 15px;
     color: rgb(112, 112, 210);
-   
+
 }
-.edit{
+
+.edit {
     font-size: 30px;
     color: black;
     margin-bottom: 50px;
 }
-.set{
+
+.set {
     display: flex;
 }
-.div{
+
+.div {
     margin: 50px;
     font-size: 35px;
     font-style: italic;
 }
-.div2{
+
+.div2 {
     margin: 50px;
     font-size: 25px;
     line-height: 40px;
 }
-.text{
+
+.text {
     margin: 50px;
     font-size: 30px;
     word-spacing: 10px;
@@ -74,16 +93,132 @@
     font-style: italic;
     margin-bottom: 300px;
 }
-.knowme{
-    text-align: center;
+
+.experience {
+    padding: 0px 100px;
+    margin-bottom: 200px
 }
-.center{
-    text-align: center;
+
+.one {
+    font-size: 25px;
 }
-.education{
+
+.two {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.three {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.experience2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+}
+
+.class {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.top {
+    margin: 20px;
+    padding: 60px;
+}
+
+.content {
+    font-size: 35px;
     font-style: italic;
-    word-spacing: 10px;
-    line-height: 50px;
+    display: flex;
+    text-indent: 100px;
+    margin: 50px;
+}
+
+.contact {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.location {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:990px) {
+    .nav1 {
+        font-size: 25px;
+    }
+
+    .h11 {
+        font-size: 130px;
+    }
+
+    .hello {
+        font-size: 17px;
+
+    }
+
+}
+
+@media screen and (max-width:760px) {
+    .nav1 {
+        font-size: 20px;
+    }
+
+    .h11 {
+        font-size: 100px;
+    }
+
+    .hello {
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    .nav1 {
+        font-size: 15px;
+    }
+
+    .h11 {
+        font-size: 70px;
+    }
+
+    .hello {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .nav1 {
+        font-size: 10px;
+    }
+
+    .h11 {
+        font-size: 50px;
+    }
+
+    .hello {
+        font-size: 10px;
+
+    }
 }
